@@ -60,7 +60,7 @@ This project leverages Jupyter Lab v3.4.4 and python v3.7 with the following pac
 MacBook Pro (16-inch, 2021)
 
     Chip Appple M1 Max
-    macOS Monterey version 12.5.1
+    macOS Monterey version 12.6
 
 ### **Development Software**
 
