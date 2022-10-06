@@ -72,7 +72,7 @@ Homebrew 3.5.10
 anaconda Command line client 1.10.0
 
     conda 4.13.0
-    Python 3.7.13
+    Python 3.9
 
 pip 22.1.2 from /opt/anaconda3/envs/dev/lib/python3.7/site-packages/pip (python 3.7)
 
@@ -95,6 +95,12 @@ From terminal, the installed application is run through jupyter lab web-based in
 
 ```python
   > jupyter lab
+```
+
+The file you will run is:
+
+```python
+  san_francisco_housing.ipynb
 ```
 
 ---
