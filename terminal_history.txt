@@ -1,0 +1,769 @@
+ 4049  conda create -n viz_trade_jupyterlab_dev python=3.7 anaconda\n
+ 4050  conda activate viz_trade_jupyterlab_dev
+ 4051  conda install scikit-learn-intelex\n
+ 4052  python -m pip install --upgrade pip\n
+ 4053  ipython kernel install --name 'trade_jupyterlab_dev' --user\n
+ 4054  pip install --upgrade Jupyterlab
+ 4055  conda install -c pyviz hvplot geoviews
+ 4056  conda update conda
+ 4057  conda update anaconda\n
+ 4058  conda install -c conda-forge nodejs
+ 4059  conda list hvplot
+ 4060  conda list geoviews
+ 4061  pip install forecast-tools
+ 4062  pip install python-dotenv
+ 4063  pip install alpaca-trade-api\n
+ 4064  cd Desktop\n
+ 4065  jupyter lab
+ 4066  conda deactivate
+ 4067  conda activate viz_trade_jupyterlab_dev
+ 4068  ipython kernel install --name 'viz_trade_jupyterlab_dev' --user
+ 4069  jupyter lab
+ 4070  conda deactivate
+ 4071  conda info --envs\n
+ 4072  conda deactivate
+ 4073  conda activate trade_jupyterlab_dev 
+ 4074  jupyter lab
+ 4075  git add .
+ 4076  git add *
+ 4077  git commit -m 'code update, ReadMe update v2.0'
+ 4078  conda deactivate
+ 4079  git push
+ 4080  cd Desktop
+ 4081  conda activate viz_trade_jupyterlab_dev
+ 4082  jupyter lab
+ 4083  conda deactivate
+ 4084  conda activate viz_trade_jupyterlab_dev
+ 4085  jupyter lab
+ 4086  conda deactivate
+ 4087  conda activate trade_jupyterlab_dev 
+ 4088  jupyter lab
+ 4089  git add .
+ 4090  git add *
+ 4091  git commit -m 'ReadMe update v2.0'
+ 4092  git push
+ 4093  conda deactivate
+ 4094  conda activate viz_trade_jupyterlab_dev
+ 4095  git clone git@github.com:Billie-LS/Module-6-Proptech.git
+ 4096  cd Desktop
+ 4097  git clone git@github.com:Billie-LS/Module-6-Proptech.git
+ 4098  git status
+ 4099  conda deactivate
+ 4100  code .
+ 4101  conda activate viz_trade_jupyterlab_dev
+ 4102  jupyter lab
+ 4103  git add .
+ 4104  git add *
+ 4105  git commit -m 'gitignore .env , api.env'
+ 4106  git push
+ 4107  code .
+ 4108  git add .
+ 4109  git add *
+ 4110  git commt -m 'gitignore .env , api.env'
+ 4111  git commit -m 'gitignore .env , api.env'
+ 4112  git push
+ 4113  conda deactivate
+ 4114  conda activate viz_trade_jupyterlab_dev
+ 4115  jupyter lab
+ 4116  git add .
+ 4117  git add *
+ 4118  git commit -m 'starter code rserve, starter code initialize'
+ 4119  git push
+ 4120  jupyter lab
+ 4121  git add .
+ 4122  git add *
+ 4123  git commit -m 'initialize'
+ 4124  wetpokepound
+ 4125  git push
+ 4126  conda deactivate
+ 4127  conda activate viz_trade_jupyterlab_dev
+ 4128  jupyter lab
+ 4129  conda activate trade_jupyterlab_dev 
+ 4130  jupyter lab
+ 4131  git add .
+ 4132  git add *
+ 4133  git commit -m 'ReadMe frame-out'
+ 4134  git push
+ 4135  conda deactivate
+ 4136  git add .
+ 4137  git add *
+ 4138  git commit -m 'ReadMe update'
+ 4139  git push
+ 4140  conda deactivate
+ 4141  conda activate trade_jupyterlab_dev 
+ 4142  code .
+ 4143  cd Desktop
+ 4145  git status
+ 4146  git add .
+ 4147  git commit -m 'update'
+ 4148  git push
+ 4149  conda deactivate
+ 4150  git status
+ 4151  ls
+ 4153  git status
+ 4154  git add .
+ 4155  git add *
+ 4156  git commit -m 'split to own repos'
+ 4157  git push
+ 4158  conda deactivate
+ 4159  conda activate trade_jupyterlab_dev 
+ 4160  jupyter lab
+ 4161  conda deactivate
+ 4162  code .
+ 4163  git add .
+ 4164  git add *
+ 4165  git commit -m 'additional mod3 repos'
+ 4166  git push
+ 4167  git pull
+ 4168  conda deactivate
+ 4169  git status
+ 4170  cd ~
+ 4171  cd Des
+ 4172  cd Desktop
+ 4173  cd Module-6-Proptech
+ 4174  code .
+ 4175  code.
+ 4176  code .
+ 4177  git status
+ 4178  git add .
+ 4179  git add *
+ 4180  git commit -m 'gitignore .env , api.env'
+ 4181  git push
+ 4182  onda deactivate
+ 4183  conda deactivate
+ 4184  git status
+ 4185  conda deactivate
+ 4186  conda activate trade_jupyterlab_dev 
+ 4187  jupyter lab
+ 4188  conda activate viz_trade_jupyterlab_dev
+ 4189  jupyter lab
+ 4190  git status
+ 4191  conda deactivate
+ 4192  git status
+ 4193  conda add .
+ 4194  conda add *
+ 4195  git add .
+ 4196  git add *
+ 4197  git commit -m 'ReadMe edit'
+ 4198  git push
+ 4199  conda deactivate
+ 4200  conda activate trade_jupyterlab_dev 
+ 4201  jupyter lab
+ 4202  git add .
+ 4203  git add *
+ 4204  git commit -m 'date time formatting on review'
+ 4205  git push
+ 4206  conda deactivate
+ 4207  conda activate trade_jupyterlab_dev 
+ 4208  jupyter lab
+ 4209  conda activate trade_jupyterlab_dev 
+ 4210  jupyter lab
+ 4211  git add .
+ 4212  git add *
+ 4213  git commit -m 'modify MCForecastTools.py, exception handle, ReadMe'
+ 4214  git push
+ 4215  conda deactivate
+ 4216  conda activate trade_jupyterlab_dev 
+ 4217  jupyter lab
+ 4218  git add .
+ 4219  git add *
+ 4220  git commit -m 'ReadMe rich content'
+ 4221  git push
+ 4222  conda deactivate
+ 4223  conda activate trade_jupyterlab_dev 
+ 4224  jupyter lab
+ 4225  git status
+ 4226  git add .
+ 4227  git add *
+ 4228  git commit -m 'code mod except hand, MCForecast mod, ReadMe mod'
+ 4229  git push
+ 4230  conda deactivate
+ 4231  conda activate trade_jupyterlab_dev 
+ 4232  jupyter lab
+ 4233  conda activate trade_jupyterlab_dev 
+ 4234  jupyter lab
+ 4235  conda deactivate
+ 4236  conda activate trade_jupyterlab_dev 
+ 4237  jupyter lab
+ 4238  git add .
+ 4239  git add *
+ 4240  git commit -m 'DRY code final, exception handle, edit ReadMe'
+ 4241  git push
+ 4242  conda deactivate
+ 4243  conda activate trade_jupyterlab_dev 
+ 4244  jupyter lab
+ 4245  conda activate trade_jupyterlab_dev 
+ 4246  jupyter lab
+ 4247  git add .
+ 4248  git add *
+ 4249  git commit -m 'final submit, final readme edit v2.3'
+ 4250  git push
+ 4251  conda deactivate
+ 4252  conda activate trade_jupyterlab_dev 
+ 4253  jupyter lab
+ 4254  git status
+ 4255  git add .
+ 4256  git add *
+ 4257  git commit -m 'final ReadMe edit v2.3'
+ 4258  git push
+ 4259  conda deactivate
+ 4260  cd Desktop
+ 4261  conda activate trade_jupyterlab_dev 
+ 4262  jupyter lab
+ 4263  git status
+ 4264  git pull
+ 4265  conda deactivate
+ 4266  conda activate trade_jupyterlab_dev 
+ 4267  jupyter lab
+ 4268  git status
+ 4269  git add .
+ 4270  git commit -m 'modified risk_return_analysis.ipynb'
+ 4271  git push
+ 4272  conda deactivate
+ 4273  conda activate trade_jupyterlab_dev 
+ 4274  jupyter lab
+ 4275  git status
+ 4276  git add .
+ 4277  git commit -m 'modified crypto_arbitrage.ipynb'
+ 4278  git push
+ 4279  conda deactivate
+ 4280  conda activate trade_jupyterlab_dev 
+ 4281  code .
+ 4282  conda activate trade_jupyterlab_dev 
+ 4283  python app.py
+ 4284  conda deactivate
+ 4285  git status
+ 4286  git add .
+ 4287  git commit -m 'review and update'
+ 4288  git push
+ 4289  conda info --envs\n
+ 4290  conda create -n jupyterlab_dev python=3.7 anaconda
+ 4291  python -m pip install --upgrade pip 
+ 4292  conda update conda\n
+ 4293  conda update anaconda
+ 4294  conda install -c conda-forge nodejs
+ 4295  conda activate jupyterlab_dev
+ 4296  python -m pip install --upgrade pip 
+ 4297  conda update conda\n
+ 4298  conda update anaconda
+ 4299  conda install -c conda-forge nodejs
+ 4300  conda install scikit-learn-intelex
+ 4301  python -m pip install ipykernel\n
+ 4302  pip3 install fire
+ 4303  pip3 install questionary\n
+ 4304  conda update jupyterlab
+ 4305  conda deactivate
+ 4306  conda activate jupyterlab_dev
+ 4307  code .
+ 4308  conda activate jupyterlab_dev
+ 4309  python app.py
+ 4310  install questionary
+ 4311  pip install questionary
+ 4312  python app.py
+ 4313  pip install fire
+ 4314  python app.py
+ 4315  git status
+ 4316  git add .
+ 4317  git commit -m 'modified: data/bank_loan_list.csv'
+ 4318  git push
+ 4319  conda deactivate
+ 4320  conda activate trade_jupyterlab_dev 
+ 4321  jupyter lab
+ 4322  git add .
+ 4323  git commit -m 'final review'
+ 4324  git push
+ 4325  conda deactivate
+ 4326  conda info --envs\n
+ 4327  viz_trade_jupyterlab_dev
+ 4328  conda activate viz_trade_jupyterlab_dev
+ 4329  jupyter lab
+ 4330  conda activate viz_trade_jupyterlab_dev
+ 4331  conda list hvplots
+ 4332  conda list geoviews
+ 4333  conda deactivate
+ 4334  conda activate viz_trade_jupyterlab_dev
+ 4335  jupyter lab
+ 4336  conda deactivate
+ 4337  conda activate trade_jupyterlab_dev 
+ 4338  jupyter lab
+ 4339  conda deactivate
+ 4340  git status
+ 4341  conda activate trade_jupyterlab_dev 
+ 4342  jupyter lab
+ 4343  git status
+ 4344  git add .
+ 4345  git commit -m 'ReadMe mod, code mod'
+ 4346  conda deactivate
+ 4347  conda activate viz_trade_jupyterlab_dev
+ 4348  ipython kernel install --name 'viz_trade_jupyterlab_dev' —user\n
+ 4349  ipython kernel install --name 'viz_trade_jupyterlab_dev' --user\n
+ 4350  jupyter lab
+ 4351  conda activate trade_jupyterlab_dev 
+ 4352  ipython kernel install --name 'trade_jupyterlab_dev' --user\n
+ 4353  conda deactivate
+ 4354  conda activate trade_jupyterlab_dev 
+ 4355  jupyter lab
+ 4356  git status
+ 4357  git add .
+ 4358  git add *
+ 4359  git commit -m 'code.ipynb, ReadMe final v2.3'
+ 4360  git push
+ 4361  conda deactivate
+ 4362  python -m pip install --upgrade pip
+ 4363  conda update conda\n
+ 4364  conda update anaconda
+ 4365  conda update jupyterlab\n
+ 4366  conda remove --slt_viz_trade_jupyterlab_dev --all\n
+ 4367  conda create -n slt_viz_trade_jupyterlab_dev python=3.7 anaconda
+ 4368  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4369  python -m pip install --upgrade pip
+ 4370  conda update conda\n\tconda update anaconda\n\tconda install -c conda-forge nodejs\n\tconda install -c conda-forge jupyterlab=3\n
+ 4371  conda update jupyterlab\n
+ 4372  conda install scikit-learn-intelex
+ 4373  python -m pip install ipykernel\n
+ 4374  ipython kernel install --name 'slt_viz_trade_jupyterlab_dev' --user
+ 4375  pip install forecast-tools\n
+ 4376  pip install python-dotenv\n
+ 4377  pip install alpaca-trade-api\n
+ 4378  conda install -c pyviz hvplot geoviews
+ 4379  pip install streamlit\n
+ 4380  pip list | grep -E 'python-dotenv|alpaca-trade-api'
+ 4381  streamlit hello
+ 4382  conda list hvplot\n conda list geovis
+ 4383  conda info --envs\n
+ 4384  conda deactivate
+ 4385  clear
+ 4386  conda info --envs\n
+ 4387  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4388  cd Desktop
+ 4389  jupyter lab
+ 4390  conda deactivate
+ 4391  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4392  cd Desktop
+ 4393  jupyter lab
+ 4394  conda deactivate
+ 4395  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4396  jupyter lab
+ 4397  conda deactivate
+ 4398  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4399  jupyter lab
+ 4400  conda deactivate
+ 4401  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4402  jupyter lab
+ 4403  conda deactivate
+ 4404  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4405  jupyter lab
+ 4406  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4407  jupyter lab
+ 4408  conda deactivate
+ 4409  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4410  jupyter lab
+ 4411  conda deactivate
+ 4412  git status
+ 4413  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4414  jupyter lab
+ 4415  conda activate viz_trade_jupyterlab_dev\n
+ 4416  jupyter lab
+ 4417  git status
+ 4418  git add .
+ 4419  git add *
+ 4420  git commit -m 'initial draft, incomplete'
+ 4421  git push
+ 4422  conda deactivate
+ 4423  jupyter lab
+ 4424  jupyter kernelspec list
+ 4425  conda deactivate
+ 4426  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4427  jupyter lab
+ 4428  git status
+ 4429  git add .
+ 4430  git commit -m 'mod san_francisco_housing.ipynb, add eexperimental'
+ 4431  git push
+ 4432  conda deactivate
+ 4433  cd Desktop
+ 4434  git clone git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-08-2022-U-B.git
+ 4435  git status
+ 4436  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4437  jupyter lab
+ 4438  git status
+ 4439  git add .
+ 4440  git add *
+ 4441  git commit -m 'Class TA review'
+ 4442  git push
+ 4443  conda deactivate
+ 4444  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4445  jupyter lab
+ 4446  conda deactivate
+ 4447  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4448  jupyter lab
+ 4449  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4450  jupyter lab
+ 4451  conda deactivate
+ 4452  git status
+ 4453  git add .
+ 4454  git add *
+ 4455  git commit -m 'plot formatting'
+ 4456  git push
+ 4457  conda deactivate
+ 4458  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4459  jupyter lab
+ 4460  conda deactivate
+ 4461  git add .
+ 4462  git add *
+ 4463  git status
+ 4464  git commit -m 'working v1.2'
+ 4465  git push
+ 4466  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4467  jupyter lab
+ 4468  git add .
+ 4469  git add *
+ 4470  git commit -m 'formatting and DRY process'
+ 4471  git push
+ 4472  conda activate slt_viz_trade_jupyterlab_dev\n
+ 4473  jupyter lab
+ 4474  git pull
+ 4475  conda activate trade_jupyterlab_dev\n
+ 4476  jupyter lab
+ 4477  git add .
+ 4478  git add *
+ 4479  git status
+ 4480  git commint -m 'set delta as 1'
+ 4481  git commit -m 'set delta as 1'
+ 4482  git push
+ 4483  conda deactivate
+ 4484  brew
+ 4485  brew cask install Java 8
+ 4486  brew install cask java 8
+ 4487  brew install cask java
+ 4488  brew info java
+ 4489  brew info cask java
+ 4490  brew update
+ 4491  brew install scala
+ 4492  brew install apache-spark
+ 4493  pyenv info
+ 4494  brew info pyenv
+ 4495  update pyenv
+ 4496  pip install jupyter toree
+ 4497  python -v
+ 4498  python --version
+ 4499  jupyter kernelspec list
+ 4500  pyenv --version
+ 4501  pyenv info
+ 4502  pyenv -v
+ 4503  ls ~/.pyenv/versions/
+ 4504  jupyter toree install --replace --spark_home=$SPARK_HOME
+ 4505  jupyter kernelspec list
+ 4506  jupyter
+ 4507  jupyter lab
+ 4508  jupyter toree install --replace --spark_home=$SPARK_HOME
+ 4509  if which pyspark > /dev/null; then\n  export SPARK_HOME="/usr/local/Cellar/apache-spark/2.4.0/libexec/"\n  export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$PYTHONPATH\n  export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH\nfi
+ 4510  jupyter toree install --replace --spark_home=$SPARK_HOME
+ 4511  sudo jupyter toree install --replace --spark_home=$SPARK_HOME
+ 4512  jupyter lab
+ 4513  jupyter kernelspec list
+ 4514  brew install julia
+ 4515  brew install cask julia
+ 4516  julia --version
+ 4517  julia
+ 4518  jupyter lab
+ 4519  brew install cask R
+ 4520  brew install libgit2
+ 4521  r
+ 4522  brew install libgit2
+ 4523  R
+ 4524  sudo quit("no",IRkernel::installspec(FALSE))
+ 4525  sudo IRkernel::installspec(FALSE)
+ 4526  jupyter lab
+ 4527  [sudo] password for lokis-mbp: \n[InstallKernelSpec] Installed kernelspec ir in /usr/local/share/jupyter/kernels/ir
+ 4528  sudo
+ 4529  lokis
+ 4530  lokis MBP
+ 4531  [sudo] password for lokiskylizard@Lokis-MBP:
+ 4532  install.packages('IRkernel')
+ 4533  R
+ 4534  jupyter lab
+ 4535  brew install cask swift
+ 4536  swift --version
+ 4537  jupyter kernelspec list
+ 4538  conda install pytorch torchvision -c pytorch
+ 4539  jupyter lab
+ 4540  python --version
+ 4541  conda create -n deep_learning_jupyterlab_dev python=3.9 anaconda\n
+ 4542  conda activate deep_learning_jupyterlab_dev\n
+ 4543  python -m pip install --upgrade pip
+ 4544  conda update conda\n
+ 4545  conda update anaconda
+ 4546  conda install -c conda-forge nodejs
+ 4547  conda install -c conda-forge jupyterlab=3
+ 4548  conda update jupyterlab\n
+ 4549  conda install scikit-learn-intelex\n
+ 4550  conda install pytorch torchvision -c pytorch
+ 4551  ipython kernel install --name 'deep_learning_jupyterlab_dev' --user\n
+ 4552  conda info --envs
+ 4553  pip install forecast-tools
+ 4554  pip install python-dotenv
+ 4555  pip install alpaca-trade-api
+ 4556  conda install -c pyviz hvplot geoviews
+ 4557  conda info --envs\n
+ 4558  conda activate deep_learning_jupyterlab_dev\n
+ 4559  conda list python-dotenv
+ 4560  conda list alpaca-trade-api\n
+ 4561  conda list hvplot                                                          ─╯\n\tconda list geoviews
+ 4562  conda list hvplot
+ 4563  version --pytorch
+ 4564  pytorch --version
+ 4565  ~/.local/share/jupyter/kernels/cnn
+ 4566  ~/.local/share/jupyter/kernels
+ 4567  jupyter kernelspec list
+ 4568  jupyter lab
+ 4569  cd ~
+ 4570  clear
+ 4571  jupyter kernelspec list
+ 4572  conda info --envs
+ 4573  conda activate jupyterlab_dev
+ 4574  ipython kernel install --name ‘jupyterlab_dev’--user
+ 4575  conda deactivate
+ 4576  conda activate trade_jupyterlab_dev
+ 4577  ipython kernel install --name 'trade_jupyterlab_dev' --user
+ 4578  conda deactivate
+ 4579  conda activate viz_trade_jupyterlab_dev_dev\n
+ 4580  conda activate viz_trade_jupyterlab_dev\n
+ 4581  ipython kernel install --name 'viz_trade_jupyterlab_dev' --user\n
+ 4582  conda deactivate
+ 4583  conda activate slt_viz_trade_jupyterlab_dev
+ 4584  ipython kernel install --name 'slt_viz_trade_jupyterlab_dev' --user
+ 4585  conda deactivate
+ 4586  jupyter kernelspec list
+ 4587  conda activate trade_jupyterlab_dev
+ 4588  conda deactivate
+ 4589  cd Desktop
+ 4590  conda activate jupyterlab_dev
+ 4591  jupyter lab
+ 4592  cd Desktop
+ 4593  conda activate jupyterlab_dev
+ 4594  git clone git@github.com:Billie-LS/ibm_jupyter_notebook.git
+ 4595  cd ibm_jupyter_notebook
+ 4596  git status
+ 4597  git add .
+ 4598  git commit -m 'upload assignment'
+ 4599  git push
+ 4600  conda deactivate
+ 4601  conda activate deep_learning_jupyterlab_dev\n
+ 4602  jupyter lab
+ 4603  conda deactivate
+ 4604  conda activate deep_learning_jupyterlab_dev\n
+ 4605  conda install -c conda-forge "elyra[all]"
+ 4606  jupyter server extension list
+ 4607  jupyter server extension enable elyra
+ 4608  jupyter labextension list
+ 4609  jupyter lab
+ 4610  conda deactivate
+ 4611  conda remove --deep_learning_jupyterlab_dev --all\n
+ 4612  conda info --envs\n
+ 4613  conda remove --deep_learning_jupyterlab_dev --all
+ 4614  conda remove --deep_learning_jupyterlab_dev --all\n
+ 4615  conda activate deep_learning_jupyterlab_dev\n
+ 4616  jupyter lab
+ 4617  conda deactivate
+ 4618  pip remove --deep_learning_jupyterlab_dev --all\n
+ 4619  pip uninstall --deep_learning_jupyterlab_dev --all\n
+ 4620  pipenv rm  --deep_learning_jupyterlab_dev --all\n
+ 4621  rmvirtualenv deep_learning_jupyterlab_dev
+ 4622  conda info --envs
+ 4623  conda activate slt_viz_trade_jupyterlab_dev
+ 4624  jupyter lab
+ 4625  conda deactivate
+ 4626  rmvirtualenv deep_learning_jupyterlab_dev
+ 4627  python rmvirtualenv deep_learning_jupyterlab_dev
+ 4628  sudo rmvirtualenv deep_learning_jupyterlab_dev
+ 4629  sudo conda remove --deep_learning_jupyterlab_dev --all\n
+ 4630  conda remove --deep_learning_jupyterlab_dev --all\n
+ 4631  jupyter server extension disable elyra
+ 4632  jupyter server extension list
+ 4633  conda activate deep_learning_jupyterlab_dev\n
+ 4634  sudo conda remove --deep_learning_jupyterlab_dev --all
+ 4635  jupyter server extension disable elyra
+ 4636  sudo conda remove --elyra --all
+ 4637  conda remove --deep_learning_jupyterlab_dev --all\n
+ 4638  sudo rmvirtualenv deep_learning_jupyterlab_dev
+ 4639  jupyter server rmextension: elyra
+ 4640  jupyter lab
+ 4641  conda deactivate
+ 4642  sudo rmvirtualenv deep_learning_jupyterlab_dev
+ 4643  conda remove --deep_learning_jupyterlab_dev --all\n
+ 4644  cd Desktop
+ 4645  jupyter lab
+ 4646  conda deactivate
+ 4647  conda activate deep_learning_jupyterlab_dev\n
+ 4648  jupyter lab
+ 4649  conda deactivate
+ 4650  info -envs
+ 4651  conda info --envs\n
+ 4652  conda activate slt_viz_trade_jupyterlab_dev
+ 4653  jupyter lab
+ 4654  conda info --envs
+ 4655  conda activate deep_learning_jupyterlab_dev\n
+ 4656  conda deactivate
+ 4657  conda remove --deep_learning_jupyterlab_dev --all\n
+ 4658  conda remove deep_learning_jupyterlab_dev --all\n
+ 4659  conda info --envs
+ 4660  conda create -n tester python=3.9 
+ 4661  conda activate tester
+ 4662  pip3 install --upgrade "elyra[all]"
+ 4663  jupyter llab
+ 4664  jupyter lab
+ 4665  conda activate tester
+ 4666  pip install pandas
+ 4667  pip install pytorch
+ 4668  conda install pytorch torchvision -c pytorch
+ 4669  pip install scikit-learn\n
+ 4670  pip install matplotlib
+ 4671  pip install python-dotenv
+ 4672  pip install forecast-tools\n
+ 4673  conda list hvplot
+ 4674  pip install hvplot
+ 4675  inofr envs
+ 4676  conda info --envs
+ 4677  conda deactivate
+ 4678  conda remove --tester --all\n
+ 4679  conda env remove -n tester\n
+ 4680  conda info --envs
+ 4681  conda create -n deep_learning_jupyterlab_dev python=3.9
+ 4682  conda activate deep_learning_jupyterlab_dev
+ 4683  pip install --upgrade "elyra[all]"\n
+ 4684  pip install pandas
+ 4685  conda install pytorch torchvision -c pytorch
+ 4686  pip install scikit-learn \npip install matplotlib\npip install python-dotenv\npip install forecast-tools\npip install hvplot\n
+ 4687  jupyter lab
+ 4688  conda deactivate
+ 4689  conda info -envs
+ 4690  conda info --envs
+ 4691  conda activate viz_trade_jupyterlab_dev
+ 4692  jupyter lab
+ 4693  conda deactivate
+ 4694  conda activate deep_learning_jupyterlab_dev
+ 4695  jupyter lab
+ 4696  conda deactivate
+ 4697  conda create -n deep_learn_env python=3.9\n
+ 4698  conda activate deep_learn_env
+ 4699  pip install --upgrade "elyra[all]"
+ 4700  pip install pandas
+ 4701  conda install pytorch torchvision -c pytorch
+ 4702  conda install scikit-learn-intelex\n
+ 4703  pip install matplotlib\npip install python-dotenv\npip install forecast-tools\npip install hvplot\n
+ 4704  jupyter lab
+ 4705  conda deactivate
+ 4706  conda info --envs
+ 4707  conda env remove -n deep_learning_jupyterlab_dev
+ 4708  conda info --envs
+ 4709  pip list | grep -E 'python-dotenv|alpaca-trade-api'\n
+ 4710  conda activate deep_learn_env
+ 4711  jupyter lab
+ 4712  conda deactivate
+ 4713  conda activate deep_learn_env
+ 4714  jupyter lab
+ 4715  conda deactivate
+ 4716  conda activate deep_learn_env
+ 4717  conda list sqlalchemy
+ 4718  conda deactivate
+ 4719  conda info --envs
+ 4720  conda activate jupyterlab_dev
+ 4721  conda list sqlalchemy
+ 4722  pip install SQLAlchemy
+ 4723  conda list sqlalchemy
+ 4724  conda install -c conda-forge voila
+ 4725  conda list voila
+ 4726  conda deactivate
+ 4727  cd Desktop
+ 4728  conda activate jupyterlab_dev
+ 4729  jupyter lab
+ 4730  git add .
+ 4731  git add * 
+ 4732  git status
+ 4733  git commit -m 'mod san_francisco_housing.ipynb'
+ 4734  git push
+ 4735  conda deactivate
+ 4736  conda activate jupyterlab_dev
+ 4737  jupyter kernelspec list
+ 4738  jupyter kernelspec remove deep_learning_jupyterlab_dev
+ 4739  jupyter lab
+ 4740  conda deactivate
+ 4741  conda info --envs
+ 4742  conda activate deep_learn_env
+ 4743  jupyter lab
+ 4744  conda activate jupyterlab_dev
+ 4745  jupyter lab
+ 4746  conda deactivate
+ 4747  conda activate jupyterlab_dev
+ 4748  jupyter lab
+ 4749  conda deactivate
+ 4750  conda activate jupyterlab_dev
+ 4751  jupyter lab
+ 4752  conda deactivate
+ 4753  git status
+ 4754  git pull
+ 4755  cd Desktop
+ 4756  git clone git@columbia.bootcampcontent.com:columbia-bootcamp/CU-VIRT-FIN-PT-08-2022-U-B.git
+ 4757  git status
+ 4758  conda activate jupyterlab_dev
+ 4759  jupyter lab
+ 4760  conda activate jupyterlab_dev
+ 4761  conda deactivate
+ 4762  conda activate jupyterlab_dev
+ 4763  jupyter lab
+ 4764  conda deactivate
+ 4765  conda activate jupyterlab_dev
+ 4766  jupyter lab
+ 4767  conda deactivate
+ 4768  conda activate deep_learn_env
+ 4769  jupyter lab
+ 4770  conda activate jupyterlab_dev
+ 4771  jupyter lab
+ 4772  conda deactivate
+ 4773  git status
+ 4774  conda activate jupyterlab_dev
+ 4775  jupyter lab
+ 4776  conda deactivate
+ 4777  git status
+ 4778  git pull
+ 4779  git status
+ 4780  conda info --envs
+ 4781  conda activate slt_viz_trade_jupyterlab_dev
+ 4782  jupyter lab
+ 4783  conda activate jupyterlab_dev
+ 4784  jupyter lab
+ 4785  conda deactivate
+ 4786  git status
+ 4787  git add .
+ 4788  git add *
+ 4789  git commit -m 'code mod'
+ 4790  git push
+ 4791  conda activate
+ 4792  conda info --envs
+ 4793  conda activate viz_trade_jupyterlab_dev
+ 4794  jupyter lab
+ 4795  conda activate trade_jupyterlab_dev
+ 4796  jupyter lab
+ 4797  git status
+ 4798  git add .
+ 4799  git add *
+ 4800  git commit -m 'fixing filter viz confirmation'
+ 4801  git push
+ 4802  conda deactivate
+ 4803  conda activate trade_jupyterlab_dev
+ 4804  jupyter lab
+ 4805  git add .
+ 4806  git commit -m 'filter trials, failed'
+ 4807  git push
+ 4808  conda activate trade_jupyterlab_dev
+ 4809  jupyter lab
+ 4810  conda deactivate
+ 4811  git status
+ 4812  git add .
+ 4813  git add *
+ 4814  git commit -m
+ 4815  git commit -m 'edit primary, experimental code'
+ 4816  git push
+ 4817  conda info --envs
+ 4818  conda activate viz_trade_jupyterlab_dev
+ 4819  jupyter lab

@@ -3,68 +3,37 @@
 ## *Proptech tool application - simulate one-click service to buy properties and then rent them*
 
 Objective - to simulate local community PropTech consulting operations. 
-Scenario - as acting analyst, within PropTech firm (stakeholder/user), utilize data visualization skills, including aggregation, interactive visualizations, and geospatial analysis, to identify properties in the San Francisco market that are viable investment opportunities. 
+Scenario - as acting analyst, within PropTech Firm (stakeholder/user), utilize data visualization skills, including aggregation, interactive visualizations, and geospatial analysis, to identify properties in the San Francisco market that are viable investment opportunities. 
 Product/deliverable - creation of a Jupyter notebook that contains your analysis of the housing rental market data for San Francisco. The analysis will be complete with professionally styled and formatted interactive visualizations.
 
-Part 1:
+Part 1:  import, clean, and analyze data
 
-Part 2:
+Part 2:  develop visualization tools to analyze the data
 
-This product represents a simplified prototype.  It allows systematic evaluation of current asset holdings (crypto-currencies, stock Funds, and bond funds) to determine present value as well as projected future value.  In addition, it assesses current asset holdings value in relation to projected emergency needs.
-
-Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained and demonstrate further visualization....  Supplemental and/or extra analysis beyond the scope of the project is noted as 'supplemental' were approrpiate. 
+Beyond the scope of the assignment, the author sought to conduct additional refinement and/or analysis of the data obtained and demonstrate further visualization....  Supplemental and/or extra analysis beyond the scope of the project is noted as 'supplemental' were approrpiate. 
 
 ---
 
-## Note: the market is dynamic.  The dates chosen for this analysis are dynamic.  As such, all figures provided will differ from values returned on any specific day in which this code is operated.  That is to say, figures and values presented herein will be outdated compared to values obtained by user realtime.  All results should be viewed as accurate estimates in relation to the date they are calculated.
 
----
 ## **Methods**
 ### The code script analysis performed:
-
-  )
     
-#### Step I - 
+#### Step I - Create a visual aggregation explore the housing units by year (2010 to 2016)
 
-![holdings_pie](Images/holdings_pie.png)
+![viz1](Images/viz1.png)
 
-#### Step II -
+#### Step I - Supplementals
 
-
-
-![3yr_scatter](Images/3yr_scatter_hx.png)
-
-![MC_3data_30predict](Images/3_30_MC.png)
-
-![current_30](Images/current_val_sb_30.png)
-
-![MC_3data_30predict](Images/3_10_MC.png)
-
-![current_30](Images/current_val_sb_10.png)
+![viz2](Images/viz2.png)
 
 
+#### Step II - Create an interactive line plot that visualizes both Sale Price Sqr Foot and Gross Rent by Neighborhood
 
-            
-   SUPPLEMENTAL and/or EXPANDED ANALYSIS was introduced by the author -
-   The historical data was cleaned and analyzed in order to 
-       visualize with `plot.scatter` and parameters- x='timestamp', y='close', c='volume' ,
-       utilize `pct_change` function in order to calculate daily returns.
-   The `corr` function was used to calculate correlations for each fund pair.
-   The `heatmap` function from the Seaborn library was used to create a heatmap of correlation values visualization.
-   Monte Carlo simulations were also conducted utilizing 5 years of historical closing prices
-       Run Monte Carlo simulation of 500 samples and 5 years prediction for the 40/60 portfolio
-       visualize- overlay line plot resulting from a simulation
-       visualize- plot probability distribution of the Monte Carlo simulation
-   Monte Carlo simulations were also conducted utilizing 7 years of historical closing prices
-       Run Monte Carlo simulation of 500 samples and 1 year prediction for the 40/60 portfolio
-       visualize- overlay line plot resulting from a simulation
-       visualize- plot probability distribution of the Monte Carlo simulation
-   
-![all_dataframes_htmap](Images/htmaps.png)    
-   
-   Additional information about the heatmap method from seaborn on the [documentation page](https://seaborn.pydata.org/generated/seaborn.heatmap.html#seaborn.heatmap).
+![viz3](Images/viz3.png)
 
+### Step III - Create an interactive GeoViews points plot for All Neighborhoods
 
+![viz4](Images/viz4.png)
 
 ---
 ## **Technologies**
@@ -73,38 +42,17 @@ Beyond the scope of the assignment, the author sought to conduct additional anal
 
 This project leverages Jupyter Lab v3.4.4 and python v3.7 with the following packages:
 
-* [os](https://docs.python.org/3/library/os.html) - provides a portable way of using operating system dependent functionality.
-
-* [getenv](https://docs.python.org/3/library/os.html?highlight=os%20getenv#os.getenv) - From 'os', return the value of the environment variable key if it exists, or default if it doesn’t.
-
-* [requests](https://requests.readthedocs.io/en/latest/) - an elegant and simple HTTP library for Python, allows you to send HTTP/1.1 requests extremely easily.
-
-* [json](https://docs.python.org/3/library/json.html?highlight=json) - JavaScript Object Notation, is a lightweight data interchange format inspired by JavaScript object literal syntax 
-
 * [pandas](https://pandas.pydata.org/docs/) - Software library written for the python programming language for data manipulation and analysis.
 
-* [Timestamp](https://pandas.pydata.org/docs/reference/api/pandas.Timestamp.html) - From 'pandas', equivalent of python’s Datetime, used for the entries that make up a DatetimeIndex, and other timeseries oriented data structures in pandas.
+* [read_csv](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html) - From 'pandas', reads a comma-separated values (csv) file into DataFrame.
 
 * [concat](https://pandas.pydata.org/docs/reference/api/pandas.concat.html) - From 'pandas', concatenate pandas objects along a particular axis, allows optional set logic along the other axes.
 
-* [Dataframe](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) - From 'pandas', data structure also contains labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. The primary pandas data structure.
-
 * [numpy](https://numpy.org/doc/stable/) - Software library, NumPy is the fundamental package for scientific computing in Python, provides vast functionality.
 
-* [timedelta](https://numpy.org/doc/stable/reference/arrays.datetime.html) - From 'NumPy', from datetime, allows the subtraction of two datetime values, an operation which produces a number with a time unit.
+* [Path](https://docs.python.org/3/library/pathlib.html) - From pathlib - Object-oriented filesystem paths, Path instantiates a concrete path for the platform the code is running on.
 
-* [dot_env](https://pypi.org/project/python-dotenv/) - Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.
-
-* [alpaca-trade-api](https://pypi.org/project/alpaca-trade-api/0.29/) - a python library for the Alpaca trade API. It allows rapid trading algo development easily, with support for the both REST and streaming interfaces.
-
-* [MCForecastTools]- a python library for the Monte Carlo simulation framework, exists as a file named MCForecastTools.py, in the same folder as the challenge notebook. This file contains all the logic, in the form of Python code, required to run the Monte Carlo simulation on portfolio price data.
-
-For additional and / or supplemental processing and visulaization this project also makes use of the following packages:
-
-* [matplotlib.pyplot](https://matplotlib.org/stable/tutorials/introductory/pyplot.html) - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python; matplotlib.pyplot is a collection of functions that make matplotlib work like MATLAB.
-
-* [seaborn](https://seaborn.pydata.org/tutorial/introduction) - Software library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.
-
+* [hvplot](https://hvplot.holoviz.org/user_guide/Introduction.html) - provides a high-level plotting API built on HoloViews that provides a general and consistent API for plotting data into numerous formats listed within linked documentation.
 
 
 ### **Hardware used for development**
@@ -137,7 +85,7 @@ git version 2.37.2
  In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/Emergency_and_Retirement_Financial_Planner.git
+git clone git@github.com:Billie-LS/Proptech_analysis_and_visualization.git
 ```
 
 ---
@@ -158,11 +106,7 @@ From terminal, the installed application is run through jupyter lab web-based in
 
 Version control can be reviewed at:
 
-```python
-https://github.com/Billie-LS/Module-6-Proptech
-```
-
-[repository](https://github.com/Billie-LS/Module-6-Proptech)
+[repository](https://github.com/Billie-LS/Proptech_analysis_and_visualization)
 
 
 ---
@@ -184,42 +128,10 @@ Vinicio De Sola
 
 ### **BootCamp teaching assistants**
 
-Corey Recai
-    [LinkedIn](https://www.linkedin.com/in/corey-recai/)
-
 Santiago Pedemonte
     [LinkedIn](https://www.linkedin.com/in/s-pedemonte/)
     [@GitHub](https://github.com/Santiago-Pedemonte)
 
-
-### **askBCS assistants**
-
-A
-    [LinkedIn](https://www.linkedin.com/)
-
-B
-    [LinkedIn](https://www.linkedin.com/)
-
-
-### **GitHub inspiration - dynamic and/or current date formatting ideas**
-
-
-C 
-    [@GitHub](https://github.com/)
-
-
-### **Additional references**
-
-
-[SparkByExamples.com](https://sparkbyexamples.com/pandas/pandas-drop-a-level-from-a-multi-level-column-index/)
-
-[W3Schools](https://www.w3schools.com/python/python_dictionaries.asp)
-
-[Geeks for Geeks](https://www.geeksforgeeks.org/get-yesterdays-date-using-python/)
-
-[pandas.to_datetime documentation](https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html)
-
-[Numpy Datetimes and Timedeltas](https://numpy.org/doc/stable/reference/arrays.datetime.html)
 
 ---
 ## **License**
